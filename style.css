@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+
+html{
+    font-size: 62%;
+}
+
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(160, 224, 224);
+}
+
+.inner-div{
+    width: 40vw;
+    background-color: rgb(184, 126, 179);
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    -webkit-box-shadow: 8px 8px 11px 10px #000000; 
+     box-shadow: 8px 8px 11px 10px #000000;
+}
+
+.inner-div h2 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-top: 1rem 0 4rem 0;
+   }
+
+.inner-div li {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    list-style: none;
+    
+}
+input{
+    cursor: pointer;
+}
+
+.answer{
+    margin: 20px;
+}
+
+#submit, .btn{
+    cursor: pointer;
+     padding: 1rem 3rem;
+     outline: none;
+     font-size: 2rem;
+     font-size: 400;
+     display: block;
+     margin: auto;
+     text-transform: uppercase;
+     color: white;
+     background-color: rgb(170, 159, 5);
+     margin-top: 4rem;
+     -webkit-box-shadow: 8px 8px 11px 10px #000000; 
+     box-shadow: 8px 8px 11px 10px #000000;
+}
+
+#submit:hover{
+    background-color: blue;
+}
+
+#showScore{
+    background-color: rgb(184, 126, 179);
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+
+}
+
+#showScore h3{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#showScore .btn{
+    cursor: pointer;
+    margin-top: 2rem;
+    border-color: greenyellow;
+}
+
+#showScore .btn:hover{
+    border-color: green;
+}
+.scoreArea{
+   display: none;
+}
